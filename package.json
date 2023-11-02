@@ -1,0 +1,17 @@
+{
+  "name": "mobster-bug-busters",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build --base=/mobster-bug-busters/",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages --dist dist"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5"
+  }
+}
