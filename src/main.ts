@@ -1,9 +1,9 @@
-import './style.css'
-import typescriptLogo from './typescript.svg'
-import viteLogo from '/vite.svg'
-import { setupCounter } from './counter.ts'
+import "./style.css";
+import typescriptLogo from "./typescript.svg";
+import viteLogo from "/vite.svg";
+import { setupCounter } from "./counter.ts";
 
-document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
+document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
   <div>
     <a href="https://vitejs.dev" target="_blank">
       <img src="${viteLogo}" class="logo" alt="Vite logo" />
@@ -19,6 +19,22 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
       Click on the Vite and TypeScript logos to learn more
     </p>
   </div>
-`
+  <header>
+  <h1>Mobster</h1>
+</header>
 
-setupCounter(document.querySelector<HTMLButtonElement>('#counter')!)
+<card>
+  <h1>Rasmus</h1>
+</card>
+<card>
+  <h1>Tetiana</h1>
+</card>
+<card>
+  <h1>Izabela</h1>
+</card>
+<card>
+  <h1>Jennifer</h1>
+</card>
+`;
+
+setupCounter(document.querySelector<HTMLButtonElement>("#counter")!);
